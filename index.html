@@ -10,38 +10,42 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./CSS/styles.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
     />
+    <link rel="stylesheet" href="./CSS/styles.css" />
 
     <title>Студія</title>
   </head>
   <body>
     <!-- Top Line -->
-    <header class="page-header">
-      <div class="container">
-        <nav class="nav">
+    <header class="page-header main-nav">
+      <div class="container main-nav">
+        <nav class="nav main-nav">
           <!-- Logo -->
           <a href="./index.html" class="logo-header"
             ><span class="span-header">WEB</span>STUDIO</a
           >
           <!-- Menu Nav -->
-          <ul class="menu-nav">
-            <li class="nav-title"><a class="nav-link" href="./index.html">Studio</a></li>
-            <li class="nav-title"><a class="nav-link" href="./portfolio.html">Portfolio</a></li>
+          <ul class="menu-nav main-nav">
+            <li class="nav-title">
+              <a class="nav-link" href="./index.html">Studio</a>
+            </li>
+            <li class="nav-title">
+              <a class="nav-link" href="./portfolio.html">Portfolio</a>
+            </li>
             <li class="nav-title"><a class="nav-link" href="#">Contacts</a></li>
           </ul>
         </nav>
-        <address>
-          <ul class="mail-tel">
-            <li>
+        <address class="adress-nav">
+          <ul class="mail-tel main-nav">
+            <li class="nav-title">
               <a class="address-link" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
             </li>
-            <li>
+            <li class="nav-title">
               <a class="address-link" href="tel:+110001111111"
                 >+11 (000) 111-11-11</a
               >
@@ -54,16 +58,17 @@
       <!-- Hero Image -->
       <section class="hero">
         <div class="container">
-          <h1 class="hero-title">Effective Solutions for Your Business</h1>
-          <button type="button" class="orderservice">
-            <span class="order-service-text">Order Service</span>
-          </button>
+          <h1 class="hero-title">
+            Effective Solutions <br />
+            for Your Business
+          </h1>
+          <button type="button" class="orderservice">Order Service</button>
         </div>
       </section>
 
       <!-- Section 1 -->
 
-      <section>
+      <section class="fetaure-section">
         <div class="container">
           <!-- Feature 1 -->
           <h2 class="hidden">Feature</h2>
@@ -155,6 +160,7 @@
           <ul class="section3">
             <li class="team-card">
               <img
+                class="team-card-photo"
                 src="./images/mark.jpg"
                 alt="Mark Guerrero photo"
                 width="264"
@@ -166,8 +172,9 @@
 
             <!-- Team Card 2 -->
 
-            <li>
+            <li class="team-card">
               <img
+                class="team-card-photo"
                 src="./images/tom.jpg"
                 alt="Tom Ford photo"
                 width="264"
@@ -179,8 +186,9 @@
 
             <!-- Team Card 3 -->
 
-            <li>
+            <li class="team-card">
               <img
+                class="team-card-photo"
                 src="./images/camila.jpg"
                 alt="Camila Garcia photo"
                 width="264"
@@ -192,8 +200,9 @@
 
             <!-- Team Card 4 -->
 
-            <li>
+            <li class="team-card">
               <img
+                class="team-card-photo"
                 src="./images/daniel.jpg"
                 alt="Daniel Wilson photo"
                 width="264"
@@ -222,3 +231,7 @@
     </footer>
   </body>
 </html>
+
+
+
+
