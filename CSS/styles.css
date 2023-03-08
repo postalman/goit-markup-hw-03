@@ -10,14 +10,28 @@ body {
   font-size: 16px;
 }
 h1, h2, h3, p {
-  margin-top: 0;
-  margin-bottom: 0;}
+  margin: 0;
+  margin: 0;}
 
-  ul {margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 0;}
+  ul {
+  margin: 0;
+  padding: 0;}
+  
+  img { }
 
+  html {box-sizing: border-box;}
 
+  *,
+  *::before,
+  *::after {box-sizing: inherit;}
+  
+/* Container */
+
+.container {width: 1158px;
+  margin: auto;
+padding-left: 15px;
+padding-right: 15px;
+outline: 1px solid red;}
 
 /* Logo */
 
@@ -30,6 +44,14 @@ h1, h2, h3, p {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--secondary-text-color);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  margin-right: 76px;
+  position: inherit;
+  
 }
 .span-header {
   color: var(--accent-color);
@@ -49,9 +71,16 @@ h1, h2, h3, p {
 
 /* Menu Nav */
 
-.menu-nav {
+.menu-nav {display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  position: inherit;
+  
+  padding-top: 24px;
+  padding-bottom: 24px;
   list-style: none;
 }
+.nav-title {}
 .mail-tel {
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -61,7 +90,8 @@ h1, h2, h3, p {
 
 /* Hero Image */
 
-.hero {
+.hero { padding-top: ;
+  padding-bottom: ;
   background: #2e2f42;
 }
 
@@ -73,6 +103,7 @@ h1, h2, h3, p {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-right: 40px;
 }
 .nav-link:hover,
 .nav-link:focus {
