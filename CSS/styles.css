@@ -172,9 +172,9 @@ img {
 
 /* Sections */
 
-.fetaure-section {
-  padding: 120px 0;
-}
+.feature-section {display: flex;
+padding-top: 120px;}
+  
 
 .hero-title {
   color: var(--white-color);
@@ -193,7 +193,7 @@ img {
   text-align: center;
   color: var(--secondary-text-color);
   margin-bottom: 72px;
-  padding-top: 120px;
+  
 }
 .section-title {
   font-weight: 500;
@@ -240,6 +240,9 @@ img {
   color: var(--primary-text-color);
   margin-bottom: 32px;
 }
+
+.fetaure-section {display: flex;}
+
 .feature-list {
   display: flex;
   margin: 0;
@@ -259,7 +262,7 @@ img {
 .section2 {
   list-style: none;
   display: flex;
-  padding-bottom: 120px;
+  
 }
 
 .section2photo:not(:last-child) {
@@ -272,7 +275,7 @@ img {
 .section3 {
   list-style: none;
   display: flex;
-  padding-bottom: 120px;
+  
 }
 
 .team-card:not(:last-child) {
@@ -347,7 +350,6 @@ img {
 .project-card {
   max-width: 360px;
   background: #ffffff;
-  border: 1px solid #e7e9fc;
   margin-bottom: 48px;
 }
 
@@ -356,7 +358,14 @@ img {
 }
 
 .profect-card-photo {
-  margin-bottom: 32px;
+  
 }
 
-.border {border: 1px solid #E7E9FC;}
+.border {border-right: 1px solid #E7E9FC;
+border-bottom:  1px solid #E7E9FC;
+border-left:  1px solid #E7E9FC;
+padding-top: 32px;}
+
+.section {gap: 24px;
+padding-top: 120px;
+padding-bottom: 120px;}
