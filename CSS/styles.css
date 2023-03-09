@@ -202,6 +202,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
   margin-bottom: 8px;
+  margin-left: 16px;
 }
 
 .team-card-photo {
@@ -230,6 +231,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
   margin-bottom: 32px;
+  margin-left: 16px;
 }
 
 .team-position {
