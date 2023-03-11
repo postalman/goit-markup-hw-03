@@ -154,7 +154,7 @@ img {
 
 .orderservice:hover,
 .orderservice:focus {
-  background: var(--accent-color);
+  background: var(--hover-ocean--);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .orderservice {
