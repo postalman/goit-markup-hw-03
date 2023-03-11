@@ -290,7 +290,8 @@ img {
   padding-top: 100px;
   padding-bottom: 100px;
 }
-.footer-text {margin: 0;
+.footer-text {
+  margin: 0;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--footer--);
