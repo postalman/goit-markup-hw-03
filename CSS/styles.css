@@ -3,6 +3,9 @@
   --primary-text-color: #434455;
   --secondary-text-color: #2e2f42;
   --white-color: #ffffff;
+  --hover-ocean--: #404bbf;
+  --footer--: #e7e9fc;
+  --button-all--: #f4f4fd;
 }
 body {
   font-family: 'Roboto', sans-serif;
@@ -130,7 +133,7 @@ img {
 }
 .nav-link:hover,
 .nav-link:focus {
-  color: var(--accent-color);
+  color: var(--hover-ocean--);
 }
 
 .address-link:hover,
@@ -175,6 +178,9 @@ img {
 
 .hero-title {
   color: var(--white-color);
+  width: 496px;
+  margin-left: auto;
+  margin-right: auto;
 
   font-size: 56px;
   line-height: 1.07;
@@ -192,6 +198,7 @@ img {
   margin-bottom: 72px;
 }
 .section-title {
+  margin: 0;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -220,7 +227,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
-  padding-bottom: 32px;
+  margin: 0;
 }
 
 .team-position {
@@ -273,20 +280,20 @@ img {
 
 .team-card {
   background: #ffffff;
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
 }
 
 .footer {
-  background: #2e2f42;
+  background: var(--secondary-text-color);
   padding-top: 100px;
   padding-bottom: 100px;
 }
-.footer-text {
+.footer-text {margin: 0;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #e7e9fc;
+  color: var(--footer--);
   width: 264px;
   margin-top: 16px;
 }
@@ -305,13 +312,14 @@ img {
 }
 .button-all {
   padding: 12px 24px;
-  background: #f4f4fd;
-  border: 1px solid #e7e9fc;
+  background: var(--button-all--);
+  border: 1px solid var(--footer--);
   border-radius: 4px;
-  color: #4d5ae5;
+  color: var(--accent-color);
   font-weight: 500;
   line-height: 1.5;
   cursor: pointer;
+  letter-spacing: 0.04em;
 }
 
 .button-text:hover,
@@ -341,15 +349,12 @@ img {
 }
 
 .project-card {
-  background: #ffffff;
+  background: var(--white-color);
   margin-bottom: 48px;
 }
 
 .project-card:not(:nth-child(3n)) {
   margin-right: 24px;
-}
-
-.profect-card-photo {
 }
 
 .border {
@@ -362,7 +367,6 @@ img {
 }
 
 .section {
-  gap: 24px;
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -381,9 +385,7 @@ img {
 }
 
 .section-text-portfolio {
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--primary-text-color);
 }
-
